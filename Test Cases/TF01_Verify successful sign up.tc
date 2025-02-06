@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TF01_Verify successful sign up</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c445eea2-4e6c-4496-a77f-b046fc5168d8</testCaseGuid>
+</TestCaseEntity>

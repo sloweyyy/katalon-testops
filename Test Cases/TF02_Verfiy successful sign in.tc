@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TF02_Verfiy successful sign in</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6d45a5a-36f4-4fb8-84dd-2ee4e99354bb</testCaseGuid>
+</TestCaseEntity>

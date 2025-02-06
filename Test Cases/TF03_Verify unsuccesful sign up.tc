@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TF03_Verify unsuccesful sign up</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e357c43-2a2f-4059-a5fd-e8ff85536a3d</testCaseGuid>
+</TestCaseEntity>
