@@ -11,9 +11,7 @@ This project is designed to help you understand the code base, create and manage
 3. [Test Suites](#test-suites)
 4. [Test Suite Collections](#test-suite-collections)
 5. [Best Practices for Katalon Certification](#best-practices-for-katalon-certification)
-6. [Getting Started](#getting-started)
-7. [Contributing](#contributing)
-8. [License](#license)
+6. [License](#license)
 
 ## Code Base
 
@@ -80,23 +78,6 @@ Test suite collections allow you to group multiple test suites together. This is
 5. **Object Repository**: Organize your object repository efficiently to make your test cases more maintainable.
 6. **Debugging**: Practice debugging your test cases to identify and fix issues quickly.
 7. **Documentation**: Read Katalon's official documentation and participate in community forums to stay updated.
-
-## Getting Started
-
-1. **Clone the Repository**: `git clone https://github.com/your-repo/project.git`
-2. **Open Katalon Studio**: Import the cloned project.
-3. **Run Test Cases**: Execute the provided test cases to ensure everything is set up correctly.
-4. **Create Your Own Tests**: Start creating your own test cases, test suites, and test suite collections.
-
-## Contributing
-
-We welcome contributions to this project. Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Create a pull request.
 
 ## License
 
