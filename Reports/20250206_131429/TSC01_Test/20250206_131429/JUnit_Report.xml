@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC01_Test" time="22.068" tests="1" failures="0" errors="0">
+   <testsuite name="TS01_Test" tests="1" failures="0" errors="0" time="11.654" skipped="0" timestamp="06-02-2025T13:14:37" hostname="phuc.truong - localhost" id="Test Suites/TS01_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/phuc.truong/git/katalon-testops/Reports/20250206_131429/TS01_Test/20250206_131430"/>
+         <property name="logFiles" value="/Users/phuc.truong/git/katalon-testops/Reports/20250206_131429/TS01_Test/20250206_131430/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phuc.truong - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7cdeb12b5255cfef6a6087a4484e9090"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1_Verify Successful Login" time="11.558" classname="Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[06-02-2025T13:14:37 - [TEST_CASE][PASSED] - Test Cases/TC1_Verify Successful Login: Test Cases/TC1_Verify Successful Login
+
+06-02-2025T13:14:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2025T13:14:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2025T13:14:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2025T13:14:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2025T13:14:41 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-02-2025T13:14:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-02-2025T13:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+06-02-2025T13:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+06-02-2025T13:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+06-02-2025T13:14:47 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+06-02-2025T13:14:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+06-02-2025T13:14:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+06-02-2025T13:14:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+06-02-2025T13:14:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+06-02-2025T13:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-02-2025T13:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-02-2025T13:14:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Logout"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_Logout' is present
+
+06-02-2025T13:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-02-2025T13:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Logout' is present
+
+06-02-2025T13:14:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2025T13:14:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2025T13:14:37 - [TEST_SUITE][PASSED] - TS01_Test: Test Cases/TC1_Verify Successful Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
