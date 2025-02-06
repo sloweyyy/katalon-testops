@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TF04_Verify unsuccessful sign in</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c186981-7b43-4db2-9b49-78bfcea059c4</testCaseGuid>
+</TestCaseEntity>
