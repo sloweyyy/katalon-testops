@@ -27,11 +27,11 @@ WebUI.click(findTestObject('Object Repository/Page_Zack Market/a_Sign Up'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Zack Market/input_Full name_fullname'), 'Truong Le Vinh Phuc')
 
-WebUI.setText(findTestObject('Object Repository/Page_Zack Market/input_Email_email'), 'hihi@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Zack Market/input_Email_email'), Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zack Market/input_Password_password'), 'O2B8DWahcyV/1qFmIJX/Cw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zack Market/input_Verify password_verifyPassword'), 'O2B8DWahcyUGmREwD1MpFA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zack Market/input_Verify password_verifyPassword'), 'O2B8DWahcyV/1qFmIJX/Cw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zack Market/input_Password_password'), 'O2B8DWahcyUGmREwD1MpFA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Zack Market/input_at least one upper case_button_btn__1gz9J'))
 

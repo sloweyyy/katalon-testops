@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>6e357c43-2a2f-4059-a5fd-e8ff85536a3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>062dd538-2f30-4852-81eb-2b970f20f8ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb71b8a0-adc7-428d-bc73-ac3606448056</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'slowey09@gmail.comm'</defaultValue>
+      <description></description>
+      <id>062dd538-2f30-4852-81eb-2b970f20f8ee</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tlvptlvp2006@'</defaultValue>
+      <description></description>
+      <id>eb71b8a0-adc7-428d-bc73-ac3606448056</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

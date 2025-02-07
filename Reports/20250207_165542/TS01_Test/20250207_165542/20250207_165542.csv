@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Test,Chrome 132.0.6834.162,,,07-02-2025 16:55:47,07-02-2025 16:56:01,13.983s,FAILED
+,,,,,,,
+Test Cases/TC1_Verify Successful Login,Chrome 132.0.6834.162,,,07-02-2025 16:55:47,07-02-2025 16:55:54,6.328s,FAILED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""ThisIsAPassword""}",,,,,,,
+"openBrowser("""")",Chrome 132.0.6834.162,,,07-02-2025 16:55:48,07-02-2025 16:55:50,2.315s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.162,,,07-02-2025 16:55:50,07-02-2025 16:55:53,2.900s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.162,,,07-02-2025 16:55:53,07-02-2025 16:55:53,0.507s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 132.0.6834.162,,,07-02-2025 16:55:53,07-02-2025 16:55:53,0.164s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 132.0.6834.162,,,07-02-2025 16:55:53,07-02-2025 16:55:54,0.318s,FAILED
+,,,,,,,
+Test Cases/TC1_Verify Successful Login,Chrome 132.0.6834.162,,,07-02-2025 16:55:54,07-02-2025 16:56:01,7.549s,FAILED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""KhongPhaiMatKhau""}",,,,,,,
+"openBrowser("""")",Chrome 132.0.6834.162,,,07-02-2025 16:55:54,07-02-2025 16:55:55,1.253s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.162,,,07-02-2025 16:55:55,07-02-2025 16:56:00,5.266s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.162,,,07-02-2025 16:56:00,07-02-2025 16:56:01,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 132.0.6834.162,,,07-02-2025 16:56:01,07-02-2025 16:56:01,0.157s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 132.0.6834.162,,,07-02-2025 16:56:01,07-02-2025 16:56:01,0.134s,FAILED

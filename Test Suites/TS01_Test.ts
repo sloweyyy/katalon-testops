@@ -16,6 +16,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC1_Verify Successful Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b4b26055-1aa3-4e6d-a4ee-1e2389643eff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/internal_data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b4b26055-1aa3-4e6d-a4ee-1e2389643eff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>fd817bdc-56cc-4543-a02d-16e157064e2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b4b26055-1aa3-4e6d-a4ee-1e2389643eff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>1ba3ee81-e954-4648-81d9-b45c9f8eeb3f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
