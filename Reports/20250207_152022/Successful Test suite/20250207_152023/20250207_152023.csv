@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Successful Test suite,Chrome 132.0.6834.162,,,07-02-2025 15:20:34,07-02-2025 15:21:36,1m - 2.256s,PASSED
+,,,,,,,
+Test Cases/TF01_Verify successful sign up,Chrome 132.0.6834.162,,,07-02-2025 15:20:34,07-02-2025 15:21:28,53.630s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.162,,,07-02-2025 15:20:34,07-02-2025 15:20:37,2.452s,PASSED
+"navigateToUrl(""https://demo-store.katalon.com/"")",Chrome 132.0.6834.162,,,07-02-2025 15:20:37,07-02-2025 15:20:38,0.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Zack Market/path""))",Chrome 132.0.6834.162,,,07-02-2025 15:20:38,07-02-2025 15:21:05,27.417s,PASSED
+"click(findTestObject(""Object Repository/Page_Zack Market/a_Sign Up""))",Chrome 132.0.6834.162,,,07-02-2025 15:21:05,07-02-2025 15:21:27,22.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_Zack Market/input_Full name_fullname""), ""Truong Le Vinh Phuc"")",Chrome 132.0.6834.162,,,07-02-2025 15:21:27,07-02-2025 15:21:27,0.191s,PASSED
+"setText(findTestObject(""Object Repository/Page_Zack Market/input_Email_email""), ""slowey11@gmail.com"")",Chrome 132.0.6834.162,,,07-02-2025 15:21:27,07-02-2025 15:21:27,0.070s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Zack Market/input_Password_password""), ""ep5ImAUUkT1A7KFUjuk83Q=="")",Chrome 132.0.6834.162,,,07-02-2025 15:21:27,07-02-2025 15:21:27,0.069s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Zack Market/input_Verify password_verifyPassword""), ""ep5ImAUUkT1A7KFUjuk83Q=="")",Chrome 132.0.6834.162,,,07-02-2025 15:21:27,07-02-2025 15:21:28,0.060s,PASSED
+"click(findTestObject(""Object Repository/Page_Zack Market/input_Verify password_button_btn__1gz9J""))",Chrome 132.0.6834.162,,,07-02-2025 15:21:28,07-02-2025 15:21:28,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zack Market/div_Dont you have an account Sign Up""), 0)",Chrome 132.0.6834.162,,,07-02-2025 15:21:28,07-02-2025 15:21:28,0.042s,PASSED
+closeBrowser(),Chrome 132.0.6834.162,,,07-02-2025 15:21:28,07-02-2025 15:21:28,0.129s,PASSED
+,,,,,,,
+Test Cases/TF02_Verfiy successful sign in,Chrome 132.0.6834.162,,,07-02-2025 15:21:28,07-02-2025 15:21:36,8.514s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.162,,,07-02-2025 15:21:28,07-02-2025 15:21:29,1.175s,PASSED
+"navigateToUrl(""https://demo-store.katalon.com/"")",Chrome 132.0.6834.162,,,07-02-2025 15:21:29,07-02-2025 15:21:34,4.855s,PASSED
+"click(findTestObject(""Object Repository/Page_Zack Market/path""))",Chrome 132.0.6834.162,,,07-02-2025 15:21:34,07-02-2025 15:21:34,0.059s,PASSED
+"setText(findTestObject(""Object Repository/Page_Zack Market/input_Email_email""), ""slowey09@gmail.com"")",Chrome 132.0.6834.162,,,07-02-2025 15:21:34,07-02-2025 15:21:34,0.137s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Zack Market/input_Password_password""), ""ep5ImAUUkT1A7KFUjuk83Q=="")",Chrome 132.0.6834.162,,,07-02-2025 15:21:34,07-02-2025 15:21:34,0.051s,PASSED
+"click(findTestObject(""Object Repository/Page_Zack Market/input_Password_button_btn__1gz9J""))",Chrome 132.0.6834.162,,,07-02-2025 15:21:34,07-02-2025 15:21:34,0.046s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Zack Market/div_FILTERS""), 0)",Chrome 132.0.6834.162,,,07-02-2025 15:21:34,07-02-2025 15:21:36,2.028s,PASSED
+closeBrowser(),Chrome 132.0.6834.162,,,07-02-2025 15:21:36,07-02-2025 15:21:36,0.131s,PASSED

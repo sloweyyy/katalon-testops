@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Successful Test suite" time="62.256" tests="2" failures="0" errors="0">
+   <testsuite name="Successful Test suite" tests="2" failures="0" errors="0" time="62.256" skipped="0" timestamp="07-02-2025T15:20:34" hostname="phuc.truong - localhost" id="Test Suites/Successful Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/phuc.truong/git/katalon-testops/Reports/20250207_152022/Successful Test suite/20250207_152023"/>
+         <property name="logFiles" value="/Users/phuc.truong/git/katalon-testops/Reports/20250207_152022/Successful Test suite/20250207_152023/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phuc.truong - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.162"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="44b6a7aa85c34d26a22d1f3ce74ca60b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TF01_Verify successful sign up" time="53.63" classname="Test Cases/TF01_Verify successful sign up" status="PASSED">
+         <system-out><![CDATA[07-02-2025T15:20:34 - [TEST_CASE][PASSED] - Test Cases/TF01_Verify successful sign up: Test Cases/TF01_Verify successful sign up
+
+07-02-2025T15:20:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2025T15:20:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-02-2025T15:20:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2025T15:20:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2025T15:20:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-store.katalon.com/"): Navigate to 'https://demo-store.katalon.com/' successfully
+
+07-02-2025T15:20:38 - [MESSAGE][PASSED] - Navigate to 'https://demo-store.katalon.com/' successfully
+
+07-02-2025T15:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Zack Market/path")): Object: 'Object Repository/Page_Zack Market/path' is clicked on
+
+07-02-2025T15:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zack Market/path' is clicked on
+
+07-02-2025T15:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Zack Market/a_Sign Up")): Object: 'Object Repository/Page_Zack Market/a_Sign Up' is clicked on
+
+07-02-2025T15:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zack Market/a_Sign Up' is clicked on
+
+07-02-2025T15:21:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Zack Market/input_Full name_fullname"), "Truong Le Vinh Phuc"): Text 'Truong Le Vinh Phuc' is set on object 'Object Repository/Page_Zack Market/input_Full name_fullname'
+
+07-02-2025T15:21:27 - [MESSAGE][PASSED] - Text 'Truong Le Vinh Phuc' is set on object 'Object Repository/Page_Zack Market/input_Full name_fullname'
+
+07-02-2025T15:21:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Zack Market/input_Email_email"), "slowey11@gmail.com"): Text 'slowey11@gmail.com' is set on object 'Object Repository/Page_Zack Market/input_Email_email'
+
+07-02-2025T15:21:27 - [MESSAGE][PASSED] - Text 'slowey11@gmail.com' is set on object 'Object Repository/Page_Zack Market/input_Email_email'
+
+07-02-2025T15:21:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Zack Market/input_Password_password"), "ep5ImAUUkT1A7KFUjuk83Q=="): Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Password_password'
+
+07-02-2025T15:21:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Password_password'
+
+07-02-2025T15:21:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Zack Market/input_Verify password_verifyPassword"), "ep5ImAUUkT1A7KFUjuk83Q=="): Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Verify password_verifyPassword'
+
+07-02-2025T15:21:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Verify password_verifyPassword'
+
+07-02-2025T15:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Zack Market/input_Verify password_button_btn__1gz9J")): Object: 'Object Repository/Page_Zack Market/input_Verify password_button_btn__1gz9J' is clicked on
+
+07-02-2025T15:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zack Market/input_Verify password_button_btn__1gz9J' is clicked on
+
+07-02-2025T15:21:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zack Market/div_Dont you have an account Sign Up"), 0): Object 'Object Repository/Page_Zack Market/div_Dont you have an account Sign Up' is present
+
+07-02-2025T15:21:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2025T15:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zack Market/div_Dont you have an account Sign Up' is present
+
+07-02-2025T15:21:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-02-2025T15:21:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TF02_Verfiy successful sign in" time="8.514" classname="Test Cases/TF02_Verfiy successful sign in" status="PASSED">
+         <system-out><![CDATA[07-02-2025T15:21:28 - [TEST_CASE][PASSED] - Test Cases/TF02_Verfiy successful sign in: Test Cases/TF02_Verfiy successful sign in
+
+07-02-2025T15:21:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2025T15:21:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-02-2025T15:21:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2025T15:21:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2025T15:21:29 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-store.katalon.com/"): Navigate to 'https://demo-store.katalon.com/' successfully
+
+07-02-2025T15:21:34 - [MESSAGE][PASSED] - Navigate to 'https://demo-store.katalon.com/' successfully
+
+07-02-2025T15:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Zack Market/path")): Object: 'Object Repository/Page_Zack Market/path' is clicked on
+
+07-02-2025T15:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zack Market/path' is clicked on
+
+07-02-2025T15:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Zack Market/input_Email_email"), "slowey09@gmail.com"): Text 'slowey09@gmail.com' is set on object 'Object Repository/Page_Zack Market/input_Email_email'
+
+07-02-2025T15:21:34 - [MESSAGE][PASSED] - Text 'slowey09@gmail.com' is set on object 'Object Repository/Page_Zack Market/input_Email_email'
+
+07-02-2025T15:21:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Zack Market/input_Password_password"), "ep5ImAUUkT1A7KFUjuk83Q=="): Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Password_password'
+
+07-02-2025T15:21:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Zack Market/input_Password_password'
+
+07-02-2025T15:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Zack Market/input_Password_button_btn__1gz9J")): Object: 'Object Repository/Page_Zack Market/input_Password_button_btn__1gz9J' is clicked on
+
+07-02-2025T15:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Zack Market/input_Password_button_btn__1gz9J' is clicked on
+
+07-02-2025T15:21:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Zack Market/div_FILTERS"), 0): Object 'Object Repository/Page_Zack Market/div_FILTERS' is present
+
+07-02-2025T15:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2025T15:21:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Zack Market/div_FILTERS' is present
+
+07-02-2025T15:21:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-02-2025T15:21:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2025T15:20:34 - [TEST_SUITE][PASSED] - Successful Test suite: Test Cases/TF02_Verfiy successful sign in]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
