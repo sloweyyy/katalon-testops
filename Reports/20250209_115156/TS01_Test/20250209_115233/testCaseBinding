@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC1_Verify Successful Login","testCaseId":"Test Cases/TC1_Verify Successful Login","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027ThisIsAPassword\u0027"}}
+{"testCaseName":"Test Cases/TC1_Verify Successful Login","testCaseId":"Test Cases/TC1_Verify Successful Login","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027KhongPhaiMatKhau\u0027"}}
