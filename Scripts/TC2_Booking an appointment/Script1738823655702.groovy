@@ -19,25 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC1_Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+for (def index : (1..3)) {
+    WebUI.click(findTestObject('Parameterization/Radio Button', [('index') : index]))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs'))
+    WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_13'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'No comment')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
-    0)
-
-WebUI.closeBrowser()
+    index += 1
+}
 
